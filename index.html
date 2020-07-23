@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="frontend.css"/>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body><br/><br/><br/><br/>
+    <div class="container">
+      <div class="col-auto"><a class="btn btn-primary link-modal" href="#modalInner">Вход в личный кабинет</a></div>
+    </div>
+    <div class="modal-win  " id="modalInner" style="display:none">
+      <div class="modal-win__head">Вход
+        <div class="modal-win__btn-close">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.3135 1L0.999772 15.3137" stroke="black"></path>
+            <path d="M15.3135 15.3137L0.999773 1.00002" stroke="black"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="modal-win__body">
+        <div class="form-block">
+          <form>
+            <div class="form-block__title">Войдите в&nbsp;систему  используя&nbsp;аккаунт платформы  &laquo;Молодые соотечественники&raquo;</div>
+            <div class="form__item form-group field-userupdateform-lastname required">
+              <input class="input form-control form-block__input" type="text" placeholder="Логин"/>
+            </div>
+            <div class="form__item form-group field-userupdateform-lastname required">
+              <input class="input form-control form-block__input" type="text" placeholder="Пароль"/>
+            </div>
+            <div class="row align-items-center pb-4">
+              <div class="col"><a href="#">Забыли пароль?</a></div>
+              <div class="col-auto">
+                <button class="form-block__btn btn btn-secondary" type="submit"> Войти</button>
+              </div>
+            </div>
+            <div class="form-block__small">Нажимая кнопку “Войти” вы соглашаетесь передавать личные данные платформе “Молодые соотечественники</div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

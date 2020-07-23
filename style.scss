@@ -1,0 +1,52 @@
+$modalPaddX: (20rem / 16);
+.modal-win{
+	max-width: (367rem / 16);
+	padding: 0;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+	.fancybox-button{
+		display: none;
+	}
+	&__body,
+	&__head{
+		padding: 1rem $modalPaddX;
+		position: relative;
+	}
+	&__head{
+		background: rgba($color: #B6C3D9, $alpha: .2);
+		
+		font-weight: bold;
+		display: flex;
+		position: relative;
+		
+	}
+	&__body{ 
+		border-radius: 0px 0px 5px 5px;
+		background-color: #ffffff;
+	}
+	&__btn-close{
+		cursor: pointer;
+		position: absolute;
+		right: $modalPaddX;
+	}
+}
+.form-block{
+			&__title{
+				color: #354A94;
+				font-size: (15rem / 16);
+				font-weight: bold;
+				max-width: 240px;
+				margin-bottom: 10px;
+			}
+			&__btn{
+				color: #2C4064;
+			}
+			&__small{
+				font-size: 13px;
+				font-weight: bold;
+				max-width: 300px;
+				padding-bottom: 0.5rem;
+			}
+}

@@ -1,0 +1,42 @@
+.modal-win {
+  max-width: 22.9375rem;
+  padding: 0;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden; }
+  .modal-win .fancybox-button {
+    display: none; }
+  .modal-win__body, .modal-win__head {
+    padding: 1rem 1.25rem;
+    position: relative; }
+  .modal-win__head {
+    background: rgba(182, 195, 217, 0.2);
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative; }
+  .modal-win__body {
+    border-radius: 0px 0px 5px 5px;
+    background-color: #ffffff; }
+  .modal-win__btn-close {
+    cursor: pointer;
+    position: absolute;
+    right: 1.25rem; }
+
+.form-block__title {
+  color: #354A94;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  max-width: 240px;
+  margin-bottom: 10px; }
+
+.form-block__btn {
+  color: #2C4064; }
+
+.form-block__small {
+  font-size: 13px;
+  font-weight: bold;
+  max-width: 300px;
+  padding-bottom: 0.5rem; }

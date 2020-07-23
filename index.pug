@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Document
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css")
+		link(rel="stylesheet", href="frontend.css")
+		link(rel="stylesheet", href="style.css")
+	body
+		br
+		br
+		br
+		br
+		.container
+			.col-auto
+				a.btn.btn-primary.link-modal(href="#modalInner") Вход в личный кабинет
+
+		.modal-win(id="modalInner" class=" " style="display:none"  )
+			.modal-win__head Вход
+				.modal-win__btn-close
+					svg(width='16', height='16', viewBox='0 0 16 16', fill='none', xmlns='http://www.w3.org/2000/svg')
+						path(d='M15.3135 1L0.999772 15.3137', stroke='black')
+						path(d='M15.3135 15.3137L0.999773 1.00002', stroke='black')
+
+			.modal-win__body
+				.form-block
+					form
+						.form-block__title Войдите в&nbsp;систему  используя&nbsp;аккаунт платформы  &laquo;Молодые соотечественники&raquo;
+						div(class="form__item form-group field-userupdateform-lastname required")
+							input.input.form-control.form-block__input(type="text" placeholder="Логин")
+						div(class="form__item form-group field-userupdateform-lastname required")
+							input.input.form-control.form-block__input(type="text" placeholder="Пароль")
+						.row.align-items-center.pb-4
+							.col
+								a(href="#") Забыли пароль?
+							.col-auto
+								button.form-block__btn.btn.btn-secondary(type="submit")  Войти
+						.form-block__small Нажимая кнопку “Войти” вы соглашаетесь передавать личные данные платформе “Молодые соотечественники
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js")
+		script(src="script.js")
